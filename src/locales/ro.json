@@ -1,0 +1,91 @@
+{
+  "select-language": "Selectați limba",
+  "cancel-label": "Anulați",
+  "pages.not-found.page-title": "Pagina nu a fost găsită",
+  "pages.not-found.page-heading": "Nu am putut găsi acea pagină",
+  "pages.not-found.page-body": "Se pare că nu am putut găsi acea pagină. Vă rugăm să încercați din nou sau să contactați un administrator dacă problema persistă.",
+  "pages.not-found.page-button": "Pagina principală",
+  "menu": {
+    "settings": "Setări",
+    "users": "Utilizatori"
+  },
+  "table": {
+    "search": "Căutare..."
+  },
+  "remove": {
+    "title": "Eliminare",
+    "confirm": "Sigur doriți să ștergeți "
+  },
+  "login": {
+    "title": "Autentificare",
+    "greeting": "Bine ai revenit.",
+    "description": "Vă rugăm să vă conectați la contul dvs",
+    "noAccount": "Nu am încă un cont",
+    "action": "Autentificare",
+    "error": "Autentificare eșuată. Vă rugăm să verificați datele de autentificare",
+    "welcome": "Bine ați venit"
+  },
+  "auth": {
+    "title": "Alăturați-vă acum.",
+    "subtitle": "Începeți prin a vă crea contul",
+    "action": {
+      "login": "Am deja un cont",
+      "signup": "Înscrieți-vă",
+      "logout": "Deconectare"
+    },
+    "placeholder": {
+      "email": "Adresă de email",
+      "password": "Parolă",
+      "passwordCheck": "Verificare parolă",
+      "firstName": "Prenume",
+      "lastName": "Nume de familie",
+      "phone": "Număr de telefon"
+    },
+    "errors": {
+      "email": {
+        "required": "Introduceți emailul dvs, va fi necesar pentru a vă conecta",
+        "format": "Vă rugăm să introduceți un email valid"
+      },
+      "password": {
+        "required": "Introduceți parola dvs cu cel puțin 8 caractere, va fi necesar pentru a vă conecta",
+        "length": "Parola trebuie să conțină cel puțin 8 caractere"
+      },
+      "passwordCheck": {
+        "required": "Vă rugăm să confirmați parola",
+        "match": "Parola nu se potrivește"
+      },
+      "firstName": {
+        "required": "Introduceți prenumele dvs"
+      },
+      "lastName": {
+        "required": "Introduceți numele de familie"
+      },
+      "phone": {
+        "required": "Introduceți numărul dvs de telefon",
+        "match": "Acest număr de telefon nu este valid"
+      }
+    }
+  },
+  "users": {
+    "title": "Utilizatori",
+    "createTitle": "Creați utilizator",
+    "editTitle": "Editați utilizator",
+    "table": {
+      "name": "Nume",
+      "phone": "Telefon",
+      "email": "Email",
+      "role": "Rol"
+    },
+    "placeholder": {
+      "firstName": "Prenume",
+      "lastName": "Nume de familie",
+      "email": "Email",
+      "phone": "Număr de telefon",
+      "password": "Parolă",
+      "passwordCheck": "Repetați parola"
+    }
+  },
+  "action" : {
+    "actions" : "",
+  }
+}

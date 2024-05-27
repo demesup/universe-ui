@@ -1,0 +1,92 @@
+{
+    "select-language": "Sprache auswählen",
+    "cancel-label": "Abbrechen",
+    "pages.not-found.page-title": "Seite nicht gefunden",
+    "pages.not-found.page-heading": "Wir konnten diese Seite nicht finden",
+    "pages.not-found.page-body": "Es sieht so aus, als könnten wir diese Seite nicht finden. Bitte versuchen Sie es erneut oder kontaktieren Sie einen Administrator, wenn das Problem weiterhin besteht.",
+    "pages.not-found.page-button": "Hauptseite",
+    "menu": {
+      "settings": "Einstellungen",
+      "users": "Benutzer"
+    },
+    "table": {
+      "search": "Suchen..."
+    },
+    "remove": {
+      "title": "Entfernen",
+      "confirm": "Sind Sie sicher, dass Sie löschen möchten "
+    },
+    "login": {
+      "title": "Anmeldung",
+      "greeting": "Willkommen zurück.",
+      "description": "Bitte melden Sie sich bei Ihrem Konto an",
+      "noAccount": "Ich habe noch kein Konto",
+      "action": "Anmelden",
+      "error": "Anmeldung fehlgeschlagen. Bitte überprüfen Sie Ihre Anmeldeinformationen",
+      "welcome": "Willkommen"
+    },
+    "auth": {
+      "title": "Jetzt beitreten.",
+      "subtitle": "Beginnen Sie mit der Erstellung Ihres Kontos",
+      "action": {
+        "login": "Ich habe bereits ein Konto",
+        "signup": "Anmelden",
+        "logout": "Abmelden"
+      },
+      "placeholder": {
+        "email": "E-Mail-Adresse",
+        "password": "Passwort",
+        "passwordCheck": "Passwortbestätigung",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "phone": "Telefonnummer"
+      },
+      "errors": {
+        "email": {
+          "required": "Geben Sie Ihre E-Mail-Adresse ein, sie wird zum Einloggen benötigt",
+          "format": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+        },
+        "password": {
+          "required": "Geben Sie Ihr Passwort mit mindestens 8 Zeichen ein, es wird zum Einloggen benötigt",
+          "length": "Das Passwort sollte mindestens 8 Zeichen enthalten"
+        },
+        "passwordCheck": {
+          "required": "Bitte bestätigen Sie Ihr Passwort",
+          "match": "Das Passwort stimmt nicht überein"
+        },
+        "firstName": {
+          "required": "Geben Sie Ihren Vornamen ein"
+        },
+        "lastName": {
+          "required": "Geben Sie Ihren Nachnamen ein"
+        },
+        "phone": {
+          "required": "Geben Sie Ihre Telefonnummer ein",
+          "match": "Diese Telefonnummer ist nicht gültig"
+        }
+      }
+    },
+    "users": {
+      "title": "Benutzer",
+      "createTitle": "Benutzer erstellen",
+      "editTitle": "Benutzer bearbeiten",
+      "table": {
+        "name": "Name",
+        "phone": "Telefon",
+        "email": "E-Mail",
+        "role": "Rolle"
+      },
+      "placeholder": {
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "phone": "Telefonnummer",
+        "password": "Passwort",
+        "passwordCheck": "Passwort wiederholen"
+      }
+    },
+    "action" : {
+      "actions" : "",
+    }
+  }
+  

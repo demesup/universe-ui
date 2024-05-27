@@ -1,0 +1,44 @@
+{
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[markdown]": {
+    "editor.rulers": [80]
+  },
+  "eslint.alwaysShowStatus": true,
+  "prettier.enable": false,
+  // "eslint.format.enable": true,
+  "eslint.lintTask.options": "-c .eslintrc.cjs .",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json",
+    "markdown",
+    "typescript",
+    "vue"
+  ],
+  "i18n-ally.localesPaths": "src/locales",
+  "i18n-ally.enabledParsers": ["yaml", "json", "json5"],
+  "i18n-ally.sortKeys": true,
+  "stylelint.validate": ["scss", "vue"],
+  "i18n-ally.keystyle": "nested",
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "vue.codeActions.enabled": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}

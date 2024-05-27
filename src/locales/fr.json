@@ -1,0 +1,91 @@
+{
+  "select-language": "Choisir la langue",
+  "cancel-label": "Annuler",
+  "pages.not-found.page-title": "Page non trouvée",
+  "pages.not-found.page-heading": "Nous n'avons pas trouvé cette page",
+  "pages.not-found.page-body": "Il semble que nous n'avons pas trouvé cette page. Veuillez réessayer ou contacter un administrateur si le problème persiste.",
+  "pages.not-found.page-button": "Page principale",
+  "menu": {
+    "settings": "Paramètres",
+    "users": "Utilisateurs"
+  },
+  "table": {
+    "search": "Rechercher..."
+  },
+  "remove": {
+    "title": "Supprimer",
+    "confirm": "Êtes-vous sûr de vouloir supprimer "
+  },
+  "login": {
+    "title": "Connexion",
+    "greeting": "Content de te revoir.",
+    "description": "Veuillez vous connecter à votre compte",
+    "noAccount": "Je n'ai pas encore de compte",
+    "action": "Se connecter",
+    "error": "Échec de la connexion. Veuillez vérifier vos informations d'identification",
+    "welcome": "Bienvenue"
+  },
+  "auth": {
+    "title": "Rejoignez-nous maintenant.",
+    "subtitle": "Commencez par créer votre compte",
+    "action": {
+      "login": "J'ai déjà un compte",
+      "signup": "S'inscrire",
+      "logout": "Se déconnecter"
+    },
+    "placeholder": {
+      "email": "Adresse électronique",
+      "password": "Mot de passe",
+      "passwordCheck": "Vérification du mot de passe",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "phone": "Numéro de téléphone"
+    },
+    "errors": {
+      "email": {
+        "required": "Entrez votre email, il sera nécessaire pour vous connecter",
+        "format": "Veuillez entrer un email valide"
+      },
+      "password": {
+        "required": "Entrez votre mot de passe avec au moins 8 caractères, il sera nécessaire pour vous connecter",
+        "length": "Le mot de passe doit contenir au moins 8 caractères"
+      },
+      "passwordCheck": {
+        "required": "Veuillez confirmer votre mot de passe",
+        "match": "Le mot de passe ne correspond pas"
+      },
+      "firstName": {
+        "required": "Entrez votre prénom"
+      },
+      "lastName": {
+        "required": "Entrez votre nom de famille"
+      },
+      "phone": {
+        "required": "Entrez votre numéro de téléphone",
+        "match": "Ce numéro de téléphone n'est pas valide"
+      }
+    }
+  },
+  "users": {
+    "title": "Utilisateurs",
+    "createTitle": "Créer un utilisateur",
+    "editTitle": "Modifier un utilisateur",
+    "table": {
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "Email",
+      "role": "Rôle"
+    },
+    "placeholder": {
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "email": "Email",
+      "phone": "Numéro de téléphone",
+      "password": "Mot de passe",
+      "passwordCheck": "Répéter le mot de passe"
+    }
+  },
+  "action" : {
+    "actions" : "",
+  }
+}

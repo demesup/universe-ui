@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="/favicon.ico" type="image/png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="mask-icon" href="/favicon.svg" color="#FFFFFF" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="msapplication-TileColor" content="#232326" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!--
+      Here is basic SEO meta tags to enable social sharing and search engine indexing.
+    -->
+    <title>UniVerse</title>
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta
+      property="og:title"
+      content="UniVerse - you helper in the small and at the same time vast univerity"
+    />
+    <meta
+      name="description"
+      content="UniVerse - you helper in the small and at the same time vast univerity"
+    />
+    <meta
+      property="og:description"
+      content="UniVerse - you helper in the small and at the same time vast univerity"
+    />
+    <meta property="og:site_name" content="UniVerse" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+
+    <!-- 
+      preloading fonts vendors
+    -->
+    <link
+      rel="preload"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="/vendors/font-awesome-v5.css"
+    />
+    <link
+      rel="preload"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="/vendors/line-icons-pro.css"
+    />
+
+    <!-- 
+      this enables dark mode before the app is loaded when the user 
+      has dark mode enabled in their OS but only if the user 
+      hasn't set a preference in the app
+
+      @see /src/stores/darkmode.ts
+    -->
+    <script>
+      ;(function () {
+        const prefersDark =
+          window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        const setting = localStorage.getItem('color-schema') || 'auto'
+        if (setting === 'dark' || (prefersDark && setting !== 'light'))
+          document.documentElement.classList.toggle('is-dark', true)
+      })()
+    </script>
+  </head>
+  <body>
+    <!-- 
+      this is a placeholder for Teleport's vue feature
+
+      @see /src/pages/navbar/dashboards/influencer.vue
+      @see /src/pages/sidebar/dashboards/influencer.vue
+    -->
+    <div data-teleport-bg></div>
+
+    <div id="app" class="app-wrapper"></div>
+    <script type="module" src="/src/entry-client.ts"></script>
+  </body>
+</html>

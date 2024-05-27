@@ -1,0 +1,91 @@
+{
+  "select-language": "Select Language",
+  "cancel-label": "Cancel",
+  "pages.not-found.page-title": "Page not found",
+  "pages.not-found.page-heading": "We couldn't find that page",
+  "pages.not-found.page-body": "Looks like we couldn't find that page. Please try again or contact an administrator if the problem persists.",
+  "pages.not-found.page-button": "Main Page",
+  "menu": {
+    "settings": "Settings",
+    "users": "Users",
+  },
+  "table": {
+    "search": "Search..."
+  },
+  "remove": {
+    "title": "Remove",
+    "confirm": "Are you sure you want to delete "
+  },
+  "login": {
+    "title": "Login",
+    "greeting": "Welcome Back.",
+    "description": "Please sign in to your account",
+    "noAccount": "I do not have an account yet",
+    "action": "Sign In",
+    "error": "Login failed. Please check your credentials",
+    "welcome": "Welcome"
+  },
+  "auth": {
+    "title": "Join Us Now.",
+    "subtitle": "Start by creating your account",
+    "action": {
+      "login": "I already have an account",
+      "signup": "Sign Up",
+      "logout": "Log out"
+    },
+    "placeholder": {
+      "email": "Email Address",
+      "password": "Password",
+      "passwordCheck": "Password Verification",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "phone": "Phone number"
+    },
+    "errors": {
+      "email": {
+        "required": "Enter your email, it will be required to login",
+        "format": "Please, enter a valid email"
+      },
+      "password": {
+        "required": "Enter your password with at least 8 characters, it will be required to login",
+        "length": "The password should contains at least 8 characters"
+      },
+      "passwordCheck": {
+        "required": "Please, confirm your password",
+        "match": "The password does not match"
+      },
+      "firstName": {
+        "required": "Enter your first name"
+      },
+      "lastName": {
+        "required": "Enter your last name"
+      },
+      "phone": {
+        "required": "Enter your phone number",
+        "match": "This phone number is not valid"
+      }
+    }
+  },
+  "users": {
+    "title": "Users",
+    "createTitle": "Create user",
+    "editTitle": "Edit user",
+    "table": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "role": "Role"
+    },
+    "placeholder": {
+      "firstName": "Name",
+      "lastName": "Last name",
+      "email": "email",
+      "phone": "Phone number",
+      "password": "Password",
+      "passwordCheck": "Repeat password"
+    }
+  },
+  "action" : {
+    "actions" : "",
+  }
+}
